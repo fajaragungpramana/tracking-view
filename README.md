@@ -76,7 +76,7 @@ First step, create your layout recycler view adapter inside there is a `Tracking
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-and in your adapter class call method `set(position, itemCount)` from `TrackingView` object. fill the method parameter with your adapter position and item data size
+and in your adapter class call method `set(position, itemCount)` from `TrackingView` object. fill the method parameter with your adapter position and item data size.
 ```kotlin
 class DestinationAdapter(private val mListDestination: List<Destination>) :
     RecyclerView.Adapter<DestinationAdapter.ViewHolder>() {
@@ -122,8 +122,6 @@ Attribute for TrackingView
 | indicatorSize | 16dp | Set the circle indicator size |
 
 ## Preview
-</br>
-</br>
 <a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/TrackingView/TrackingView.jpg" align="left" height="640" width="320" ></a>
 </br>
 </br>
