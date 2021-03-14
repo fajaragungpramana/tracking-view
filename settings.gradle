@@ -1,0 +1,3 @@
+include ':trackingview'
+include ':app'
+rootProject.name = "TrackingView"

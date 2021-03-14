@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrackingView">
+        <attr name="dashed" format="boolean" />
+        <attr name="lineWidth" format="dimension|reference" />
+        <attr name="indicatorColor" format="color|reference" />
+        <attr name="indicatorSize" format="dimension|reference" />
+    </declare-styleable>
+</resources>
