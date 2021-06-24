@@ -11,14 +11,14 @@ afterEvaluate {
                 from components.release
 
                 groupId = "com.github.fajaragungpramana.trackingview"
-                version = "0.0.1"
+                version = "0.0.2"
             }
 
             debug(MavenPublication) {
                 from components.debug
 
                 groupId = "com.github.fajaragungpramana.trackingview"
-                version = "0.0.1"
+                version = "0.0.2"
             }
         }
     }
@@ -32,7 +32,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
-        versionName "0.0.1"
+        versionName "0.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
