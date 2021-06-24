@@ -45,6 +45,14 @@ class TrackingView(context: Context, attrs: AttributeSet?) : LinearLayout(contex
             mIndicator.indicatorSize = field
         }
 
+    var isDestinationEnabled: Boolean = false
+        get() = mIndicator.isDestination
+        set(value) {
+            field = value
+
+            mIndicator.isDestination = field
+        }
+
     init {
 
         orientation = VERTICAL
